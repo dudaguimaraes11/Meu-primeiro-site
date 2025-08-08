@@ -2,25 +2,48 @@
 *{
     margin: 0;
     padding: 0; 
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-h1,
-p {
-    text-align: center;
-    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    line-height: 1.6;
 }
 
 header {
     background-color: rgb(252, 69, 96);
     color: white; 
     padding: 74px;
+    text-align: center;
 }
 
 main {
-height: 600px;
-background-color: rgb(245, 223, 223);
+background-color: rgb(255, 228, 236);
+flex: 1;
+padding: 48px 38px;
 }
+
+#sobre-mim {
+    display: block;
+    background-color: rgb(252, 168, 182);
+    color:rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+#titulo-sobre-mim {
+    font-size: 25px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid rgb(248, 243, 243);
+    margin-bottom: 25;
+}
+
+.texto-sobre-mim {
+    font-size: 20;
+}
+
