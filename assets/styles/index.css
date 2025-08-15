@@ -124,5 +124,16 @@ li:hover {
 #contato a:hover {
     background-color: rgb(146, 6, 50);
     color: white; 
+}
 
+footer {
+    background-color: rgb(252, 69, 96);
+    color: white; 
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
 }
